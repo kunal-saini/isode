@@ -26,7 +26,8 @@
     }
   ],
   "dependencies": {
-    "dockerode": "2.0.0"
+    "async": "^3.2.5",
+    "dockerode": "^4.0.2"
   },
   "homepage": "https://github.com/tjanczuk/isode",
   "repository": {
@@ -35,5 +36,8 @@
   },
   "bugs": {
     "url": "http://github.com/tjanczuk/isode/issues"
+  },
+  "devDependencies": {
+    "@types/node": "^20.12.12"
   }
 }
